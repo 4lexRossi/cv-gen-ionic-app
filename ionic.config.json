@@ -1,0 +1,7 @@
+{
+  "name": "cvGen",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
