@@ -4,6 +4,11 @@
       <ion-back-button text="" defaultHref="/recipes"></ion-back-button>
     </ion-buttons>
     <ion-title class="ion-text-start"> {{loadedRecipe.title}} </ion-title>
+    <ion-buttons slot="primary">
+      <ion-button (click)="onDeleteRecipe()">
+        <ion-icon name="trash" slot="icon-only"></ion-icon>
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
